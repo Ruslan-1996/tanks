@@ -2,7 +2,7 @@ const root = document.querySelector('.root')
 
 const findTeams = () => {
     const finalGame = tanks.results.find(
-        (game) => !game.tournament_system_specific_data.next_match_for_looser_uuid,
+        (game) => !game.tournament_system_specific_data.next_match_for_winner_uuid,
     );
 
     let step = 1
