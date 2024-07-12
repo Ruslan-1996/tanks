@@ -46,7 +46,7 @@ const render = () => {
         let el = ''
         team.children?.forEach((game) => {
             if(game) {
-                el = el + `<div class="item">${game?.team_1?.title || 'н/и'} - ${game?.team_2?.title || 'н/и'}</div>`
+                el = el + `<div class='item ${game.uuid === '2515057@112' && 'red'}'>${game?.team_1?.title || 'н/и'} - ${game?.team_2?.title || 'н/и'}</div>`
             }
         })
 
