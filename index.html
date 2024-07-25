@@ -5,9 +5,19 @@
     <title>Title</title>
 </head>
 <body>
+<ol>
+     <li>Нажимаешь f12</li>
+     <li>кликаешь консоль</li>
+     <li>ищешь в инпуте "matches"</li>
+     <li>кликаешь "payload"</li>
+     <li>меняеш id</li>
+    <div>tournamentId<input type="text" id="tournamentId">stageId<input type="text"  id="stageId">groupId<input type="text"  id="groupId"></div>
+    <button id="btn">Поиск</button>
+</ol>
 <div class="root"></div>
 <script src="tanks.js"></script>
 <script src="index.js"></script>
+<script src="fetch.js"></script>
 <style>
     .root {
       width: max-content;
@@ -27,7 +37,8 @@
     }
 
     .red {
-      border: 5px solid red;
+      border: 3px solid red;
+      box-sizing: border-box;
     }
 </style>
 </body>
