@@ -23,11 +23,11 @@ const findTeams = () => {
             data.children = childrenGames;
             data.step = step;
         }
-        if(firstGame?.uuid && tanks?.results.find((game) => game.tournament_system_specific_data.next_match_for_winner_uuid === firstGame.uuid)) {
+
+        if (firstGame && (!firstGame?.team_2_id || !firstGame?.team_1_id)) {
             setChildren(firstGame, step + 1);
         }
-
-        if(secondGame?.uuid && tanks?.results.find((game) => game.tournament_system_specific_data.next_match_for_winner_uuid === secondGame.uuid)) {
+        if (secondGame && (!secondGame?.team_2_id || !secondGame?.team_1_id)) {
             setChildren(secondGame, step + 1);
         }
 
@@ -42,14 +42,11 @@ const render = () => {
 
     const team = findTeams()
 
-    const teamName = 'WhoCares?'
-    const nextMatchId = tanks.results.find(({team_2, team_1}) => team_2.title === teamName || team_1.title === teamName)?.tournament_system_specific_data.next_match_for_winner_uuid
-
     const draw = (team) => {
         let el = ''
         team.children?.forEach((game) => {
             if(game) {
-                el = el + `<div class='item ${game.uuid === nextMatchId && 'red'}'>${game?.team_1?.title || 'н/и'} - ${game?.team_2?.title || 'н/и'}</div>`
+                el = el + `<div class='item ${game.uuid === '2515057@112' && 'red'}'>${game?.team_1?.title || 'н/и'} - ${game?.team_2?.title || 'н/и'}</div>`
             }
         })
 
@@ -70,5 +67,6 @@ const render = () => {
 
     root.innerHTML = Object.values(htmlobj).map((value) => `<div class="row">${value}</div>`).join('')
 }
+
 
 render()
