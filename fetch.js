@@ -28,7 +28,7 @@ const groupId = document.getElementById("groupId").oninput = (e) => {
 
 document.getElementById('btn').onclick = () => {
     if(tournamentId && groupId && stageId) {
-        fetch(`https://tanki.su/tmsis/api/v1/stages/groups/matches/?filter%5Blanguage%5D=ru&filter%5Btournament_id%5D=${tournamentValue.trim()}&filter%5Bstage_id%5D=${stageValue.trim()}&filter%5Bgroup_id%5D=${groupValue.trim()}`)
+        fetch(`https://tanki.su/tmsis/api/v1/stages/groups/matches/?filter%5Blanguage%5D=ru&filter%5Btournament_id%5D=${tournamentValue}&filter%5Bstage_id%5D=${stageValue}&filter%5Bgroup_id%5D=${groupValue}`)
             .then(res => res.json())
             .then(data => {
                 if(data.status === 'ok') {
