@@ -21,13 +21,11 @@ const findTeams = () => {
                 newGame.tournament_system_specific_data.next_match_for_winner_uuid ===
                 data?.uuid,
         );
-        // console.log(childrenGames)
+
         let firstGame = childrenGames?.[0];
         let secondGame = childrenGames?.[1];
-        console.log(step);
 
         if(step === allRounds - 1) {
-            console.log(step);
             if(!firstGame) {
                 firstGame = {
                     "title": "пусто",
