@@ -1,5 +1,11 @@
 const root = document.querySelector('.root')
 
+const allRounds = tanks.results.reduce((acc, cur) => {
+    const curRound = cur.tournament_system_specific_data.round
+
+    return curRound > acc ? curRound : acc
+}, 1)
+
 const findTeams = () => {
     const finalGame = tanks.results.find(
         (game) => !game.tournament_system_specific_data.next_match_for_winner_uuid,
@@ -15,9 +21,28 @@ const findTeams = () => {
                 newGame.tournament_system_specific_data.next_match_for_winner_uuid ===
                 data?.uuid,
         );
+        // console.log(childrenGames)
+        let firstGame = childrenGames?.[0];
+        let secondGame = childrenGames?.[1];
+        console.log(step);
 
-        const firstGame = childrenGames?.[0];
-        const secondGame = childrenGames?.[1];
+        if(step === allRounds - 1) {
+            console.log(step);
+            if(!firstGame) {
+                firstGame = {
+                    "title": "пусто",
+                }
+            }
+            if(!secondGame) {
+                secondGame = {
+                    "title": "пусто",
+                }
+            }
+
+            data.children = [firstGame, secondGame];
+
+            return data
+        }
 
         if (childrenGames?.length) {
             data.children = childrenGames;
@@ -39,7 +64,6 @@ const findTeams = () => {
 
 const render = () => {
     const htmlobj = {}
-
     const team = findTeams()
 
     const draw = (team) => {
