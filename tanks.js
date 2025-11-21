@@ -1,44 +1,45 @@
-let tanks = {results:[
+let tanks = {
+    "results": [
         {
-            "uuid": "2541096@1",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
+            "uuid": "2550105@1",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
             "team_1_id": null,
             "team_2_id": null,
             "team_1": {
-                "owner": null,
-                "title": null,
+                "status": null,
+                "tournament_id": null,
                 "id": null,
+                "owner": null,
                 "extra_data": {
                     "disqualify_reason": null,
                     "password": false,
                     "description": null,
                     "contacts": null
                 },
-                "status": null,
-                "tournament_id": null
+                "title": null
             },
             "team_2": {
-                "owner": null,
-                "title": null,
+                "status": null,
+                "tournament_id": null,
                 "id": null,
+                "owner": null,
                 "extra_data": {
                     "disqualify_reason": null,
                     "password": false,
                     "description": null,
                     "contacts": null
                 },
-                "status": null,
-                "tournament_id": null
+                "title": null
             },
             "state": "waiting_results",
             "winner_team_id": null,
             "settings": {
-                "map": ""
+                "map": "Химмельсдорф"
             },
             "tournament_system_specific_data": {
-                "uuid": "2541096@1",
+                "uuid": "2550105@1",
                 "round": 1,
                 "position": 1,
                 "next_match_for_winner_uuid": null,
@@ -52,51 +53,51 @@ let tanks = {results:[
             }
         },
         {
-            "uuid": "2541096@10",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
+            "uuid": "2550105@10",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
             "team_1_id": null,
             "team_2_id": null,
             "team_1": {
-                "owner": null,
-                "title": null,
+                "status": null,
+                "tournament_id": null,
                 "id": null,
+                "owner": null,
                 "extra_data": {
                     "disqualify_reason": null,
                     "password": false,
                     "description": null,
                     "contacts": null
                 },
-                "status": null,
-                "tournament_id": null
+                "title": null
             },
             "team_2": {
-                "owner": null,
-                "title": null,
+                "status": null,
+                "tournament_id": null,
                 "id": null,
+                "owner": null,
                 "extra_data": {
                     "disqualify_reason": null,
                     "password": false,
                     "description": null,
                     "contacts": null
                 },
-                "status": null,
-                "tournament_id": null
+                "title": null
             },
             "state": "waiting_results",
             "winner_team_id": null,
             "settings": {
-                "map": "Затерянный город, Прохоровка"
+                "map": "Энск, Песчаная река, Рыбацкая бухта"
             },
             "tournament_system_specific_data": {
-                "uuid": "2541096@10",
+                "uuid": "2550105@10",
                 "round": 4,
                 "position": 3,
-                "next_match_for_winner_uuid": "2541096@5",
+                "next_match_for_winner_uuid": "2550105@5",
                 "next_match_for_looser_uuid": null
             },
-            "start_at": 1731177360.0,
+            "start_at": 1763833260.0,
             "extra_data": {
                 "wins_team_1": null,
                 "wins_team_2": null,
@@ -104,457 +105,51 @@ let tanks = {results:[
             }
         },
         {
-            "uuid": "2541096@101",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15894142,
-            "team_2_id": 15867573,
-            "team_1": {
-                "id": 15894142,
-                "tournament_id": 32236,
-                "title": "Волки",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "95604337",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15867573,
-                "tournament_id": 32236,
-                "title": "WhoCares?",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "15457694",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@101",
-                "round": 7,
-                "position": 38,
-                "next_match_for_winner_uuid": "2541096@50",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164400.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@102",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15889366,
-            "team_2_id": 15867619,
-            "team_1": {
-                "id": 15889366,
-                "tournament_id": 32236,
-                "title": "Flawless",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "4551532",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15867619,
-                "tournament_id": 32236,
-                "title": "RIOT ARMOR",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "3417048",
-                "extra_data": {
-                    "contacts": "",
-                    "password": null,
-                    "description": "Сила и скилл? Да, мы с ними лучшие друзья!",
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@102",
-                "round": 7,
-                "position": 39,
-                "next_match_for_winner_uuid": "2541096@51",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164400.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@103",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15868855,
-            "team_2_id": 15880775,
-            "team_1": {
-                "id": 15868855,
-                "tournament_id": 32236,
-                "title": "Tacinskiy reid",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "257086261",
-                "extra_data": {
-                    "contacts": "",
-                    "password": null,
-                    "description": "No mercy...",
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15880775,
-                "tournament_id": 32236,
-                "title": "ZSWS",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "15168687",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@103",
-                "round": 7,
-                "position": 40,
-                "next_match_for_winner_uuid": "2541096@51",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164405.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@105",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15885016,
-            "team_2_id": 15889823,
-            "team_1": {
-                "id": 15885016,
-                "tournament_id": 32236,
-                "title": "Deathbringers",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "62086357",
-                "extra_data": {
-                    "contacts": "IRazumist",
-                    "password": true,
-                    "description": "",
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15889823,
-                "tournament_id": 32236,
-                "title": "Lssv",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "255795373",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@105",
-                "round": 7,
-                "position": 42,
-                "next_match_for_winner_uuid": "2541096@52",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164405.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@106",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15870773,
-            "team_2_id": 15870179,
-            "team_1": {
-                "id": 15870773,
-                "tournament_id": 32236,
-                "title": "-TUP-",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "61878377",
-                "extra_data": {
-                    "contacts": "",
-                    "password": null,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15870179,
-                "tournament_id": 32236,
-                "title": "дрон.",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "21328998",
-                "extra_data": {
-                    "contacts": "",
-                    "password": null,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@106",
-                "round": 7,
-                "position": 43,
-                "next_match_for_winner_uuid": "2541096@53",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164405.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@107",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15893645,
-            "team_2_id": 15867580,
-            "team_1": {
-                "id": 15893645,
-                "tournament_id": 32236,
-                "title": "Lucky Worms",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "19666692",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15867580,
-                "tournament_id": 32236,
-                "title": "GESHTALT",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "127114135",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": "https://vk.com/geshtaltvk https://t.me/geshtalttg",
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@107",
-                "round": 7,
-                "position": 44,
-                "next_match_for_winner_uuid": "2541096@53",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164405.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@109",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15885573,
-            "team_2_id": 15878717,
-            "team_1": {
-                "id": 15885573,
-                "tournament_id": 32236,
-                "title": "PLATOON",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "22121525",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": "",
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15878717,
-                "tournament_id": 32236,
-                "title": "GYMSHARKS",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "162443464",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": "",
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@109",
-                "round": 7,
-                "position": 46,
-                "next_match_for_winner_uuid": "2541096@54",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164405.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@11",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
+            "uuid": "2550105@11",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
             "team_1_id": null,
             "team_2_id": null,
             "team_1": {
-                "owner": null,
-                "title": null,
+                "status": null,
+                "tournament_id": null,
                 "id": null,
+                "owner": null,
                 "extra_data": {
                     "disqualify_reason": null,
                     "password": false,
                     "description": null,
                     "contacts": null
                 },
-                "status": null,
-                "tournament_id": null
+                "title": null
             },
             "team_2": {
-                "owner": null,
-                "title": null,
+                "status": null,
+                "tournament_id": null,
                 "id": null,
+                "owner": null,
                 "extra_data": {
                     "disqualify_reason": null,
                     "password": false,
                     "description": null,
                     "contacts": null
                 },
-                "status": null,
-                "tournament_id": null
+                "title": null
             },
             "state": "waiting_results",
             "winner_team_id": null,
             "settings": {
-                "map": "Затерянный город, Прохоровка"
+                "map": "Энск, Песчаная река, Рыбацкая бухта"
             },
             "tournament_system_specific_data": {
-                "uuid": "2541096@11",
+                "uuid": "2550105@11",
                 "round": 4,
                 "position": 4,
-                "next_match_for_winner_uuid": "2541096@5",
+                "next_match_for_winner_uuid": "2550105@5",
                 "next_match_for_looser_uuid": null
             },
-            "start_at": 1731177360.0,
+            "start_at": 1763833260.0,
             "extra_data": {
                 "wins_team_1": null,
                 "wins_team_2": null,
@@ -562,2877 +157,16 @@ let tanks = {results:[
             }
         },
         {
-            "uuid": "2541096@110",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15867741,
-            "team_2_id": 15893387,
+            "uuid": "2550105@113",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16537414,
+            "team_2_id": 16550386,
             "team_1": {
-                "id": 15867741,
-                "tournament_id": 32236,
-                "title": "CSKA ESPORTS",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "66022208",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15893387,
-                "tournament_id": 32236,
-                "title": "YESFO TEAM",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "8072250",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@110",
-                "round": 7,
-                "position": 47,
-                "next_match_for_winner_uuid": "2541096@55",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164405.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@111",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15889202,
-            "team_2_id": 15886349,
-            "team_1": {
-                "id": 15889202,
-                "tournament_id": 32236,
-                "title": "exGIVI",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "119066686",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15886349,
-                "tournament_id": 32236,
-                "title": "Devu",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "4405915",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@111",
-                "round": 7,
-                "position": 48,
-                "next_match_for_winner_uuid": "2541096@55",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164405.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@113",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15867593,
-            "team_2_id": 15884511,
-            "team_1": {
-                "id": 15867593,
-                "tournament_id": 32236,
-                "title": "На крыльях свободы",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "4667392",
-                "extra_data": {
-                    "contacts": "",
-                    "password": null,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15884511,
-                "tournament_id": 32236,
-                "title": "EXORT",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "94451912",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@113",
-                "round": 7,
-                "position": 50,
-                "next_match_for_winner_uuid": "2541096@56",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164405.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@114",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15869288,
-            "team_2_id": 15884503,
-            "team_1": {
-                "id": 15869288,
-                "tournament_id": 32236,
-                "title": "Motitunia tashit",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "116158131",
-                "extra_data": {
-                    "contacts": "",
-                    "password": null,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15884503,
-                "tournament_id": 32236,
-                "title": "NAUKA",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "1217724",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": "летим на ракете",
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@114",
-                "round": 7,
-                "position": 51,
-                "next_match_for_winner_uuid": "2541096@57",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164405.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@115",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15867764,
-            "team_2_id": 15867737,
-            "team_1": {
-                "id": 15867764,
-                "tournament_id": 32236,
-                "title": "Центр",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "21195028",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15867737,
-                "tournament_id": 32236,
-                "title": "INkoGniTo",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "4257158",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": "...",
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@115",
-                "round": 7,
-                "position": 52,
-                "next_match_for_winner_uuid": "2541096@57",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164405.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@117",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15883824,
-            "team_2_id": 15868810,
-            "team_1": {
-                "id": 15883824,
-                "tournament_id": 32236,
-                "title": "TRIUMPH",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "23121605",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15868810,
-                "tournament_id": 32236,
-                "title": "SDFF",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "108942553",
-                "extra_data": {
-                    "contacts": "",
-                    "password": null,
-                    "description": "SDF",
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@117",
-                "round": 7,
-                "position": 54,
-                "next_match_for_winner_uuid": "2541096@58",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164405.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@118",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15867715,
-            "team_2_id": 15882021,
-            "team_1": {
-                "id": 15867715,
-                "tournament_id": 32236,
-                "title": "Illus",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "105329603",
-                "extra_data": {
-                    "contacts": "",
-                    "password": null,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15882021,
-                "tournament_id": 32236,
-                "title": "Toxic Team",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "211692779",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@118",
-                "round": 7,
-                "position": 55,
-                "next_match_for_winner_uuid": "2541096@59",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164405.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@119",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15893849,
-            "team_2_id": 15867584,
-            "team_1": {
-                "id": 15893849,
-                "tournament_id": 32236,
-                "title": "Азия",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "96733526",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": "Азия",
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15867584,
-                "tournament_id": 32236,
-                "title": "BATTLEHALL TEAM",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "13921490",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": "https://vk.com/bogina228",
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@119",
-                "round": 7,
-                "position": 56,
-                "next_match_for_winner_uuid": "2541096@59",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164405.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@12",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Затерянный город, Прохоровка"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@12",
-                "round": 4,
-                "position": 5,
-                "next_match_for_winner_uuid": "2541096@6",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731177360.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@121",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15867601,
-            "team_2_id": 15881701,
-            "team_1": {
-                "id": 15867601,
-                "tournament_id": 32236,
-                "title": "BYSTRAGE",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "28943648",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": "",
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15881701,
-                "tournament_id": 32236,
-                "title": "Virtus.pro",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "6772102",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@121",
-                "round": 7,
-                "position": 58,
-                "next_match_for_winner_uuid": "2541096@60",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164405.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@122",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15868689,
-            "team_2_id": 15867629,
-            "team_1": {
-                "id": 15868689,
-                "tournament_id": 32236,
-                "title": "Для АФК",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "20413",
-                "extra_data": {
-                    "contacts": "",
-                    "password": null,
-                    "description": "Стоим у респа, куст охраняем.",
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15867629,
-                "tournament_id": 32236,
-                "title": "цуууууапр",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "40095774",
-                "extra_data": {
-                    "contacts": "",
-                    "password": null,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@122",
-                "round": 7,
-                "position": 59,
-                "next_match_for_winner_uuid": "2541096@61",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164405.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@123",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15879491,
-            "team_2_id": 15887459,
-            "team_1": {
-                "id": 15879491,
-                "tournament_id": 32236,
-                "title": "Пенсионный Фонд",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "69313190",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": "",
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15887459,
-                "tournament_id": 32236,
-                "title": "ALFA",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "8673885",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@123",
-                "round": 7,
-                "position": 60,
-                "next_match_for_winner_uuid": "2541096@61",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164405.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@125",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15884510,
-            "team_2_id": 15874073,
-            "team_1": {
-                "id": 15884510,
-                "tournament_id": 32236,
-                "title": "H-OLY",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "5143701",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15874073,
-                "tournament_id": 32236,
-                "title": "Pus'ki Team",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "16824538",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@125",
-                "round": 7,
-                "position": 62,
-                "next_match_for_winner_uuid": "2541096@62",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164405.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@126",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15868865,
-            "team_2_id": 15888097,
-            "team_1": {
-                "id": 15868865,
-                "tournament_id": 32236,
-                "title": "FORZE",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "156431416",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": "",
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15888097,
-                "tournament_id": 32236,
-                "title": "BOGATYRI ESPORTS",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "6168619",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@126",
-                "round": 7,
-                "position": 63,
-                "next_match_for_winner_uuid": "2541096@63",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164405.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@127",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15884201,
-            "team_2_id": 15894038,
-            "team_1": {
-                "id": 15884201,
-                "tournament_id": 32236,
-                "title": "GOMOseki",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "24939099",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": "",
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15894038,
-                "tournament_id": 32236,
-                "title": "LAKOMKA",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "95674069",
-                "extra_data": {
-                    "contacts": "opuR",
-                    "password": true,
-                    "description": "",
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@127",
-                "round": 7,
-                "position": 64,
-                "next_match_for_winner_uuid": "2541096@63",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164405.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@13",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Затерянный город, Прохоровка"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@13",
-                "round": 4,
-                "position": 6,
-                "next_match_for_winner_uuid": "2541096@6",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731177360.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@14",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Затерянный город, Прохоровка"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@14",
-                "round": 4,
-                "position": 7,
-                "next_match_for_winner_uuid": "2541096@7",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731177360.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@15",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Затерянный город, Прохоровка"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@15",
-                "round": 4,
-                "position": 8,
-                "next_match_for_winner_uuid": "2541096@7",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731177360.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@16",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Мурованка, Руинберг"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@16",
-                "round": 5,
-                "position": 1,
-                "next_match_for_winner_uuid": "2541096@8",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731173040.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@17",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Мурованка, Руинберг"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@17",
-                "round": 5,
-                "position": 2,
-                "next_match_for_winner_uuid": "2541096@8",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731173040.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@18",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Мурованка, Руинберг"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@18",
-                "round": 5,
-                "position": 3,
-                "next_match_for_winner_uuid": "2541096@9",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731173040.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@19",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Мурованка, Руинберг"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@19",
-                "round": 5,
-                "position": 4,
-                "next_match_for_winner_uuid": "2541096@9",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731173040.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@2",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Ласвилль, Руинберг, Прохоровка"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@2",
-                "round": 2,
-                "position": 1,
-                "next_match_for_winner_uuid": "2541096@1",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731186000.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@20",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Мурованка, Руинберг"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@20",
-                "round": 5,
-                "position": 5,
-                "next_match_for_winner_uuid": "2541096@10",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731173040.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@21",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Мурованка, Руинберг"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@21",
-                "round": 5,
-                "position": 6,
-                "next_match_for_winner_uuid": "2541096@10",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731173040.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@22",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Мурованка, Руинберг"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@22",
-                "round": 5,
-                "position": 7,
-                "next_match_for_winner_uuid": "2541096@11",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731173040.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@23",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Мурованка, Руинберг"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@23",
-                "round": 5,
-                "position": 8,
-                "next_match_for_winner_uuid": "2541096@11",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731173040.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@24",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Мурованка, Руинберг"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@24",
-                "round": 5,
-                "position": 9,
-                "next_match_for_winner_uuid": "2541096@12",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731173040.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@25",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Мурованка, Руинберг"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@25",
-                "round": 5,
-                "position": 10,
-                "next_match_for_winner_uuid": "2541096@12",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731173040.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@26",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Мурованка, Руинберг"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@26",
-                "round": 5,
-                "position": 11,
-                "next_match_for_winner_uuid": "2541096@13",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731173040.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@27",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Мурованка, Руинберг"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@27",
-                "round": 5,
-                "position": 12,
-                "next_match_for_winner_uuid": "2541096@13",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731173040.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@28",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Мурованка, Руинберг"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@28",
-                "round": 5,
-                "position": 13,
-                "next_match_for_winner_uuid": "2541096@14",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731173040.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@29",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Мурованка, Руинберг"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@29",
-                "round": 5,
-                "position": 14,
-                "next_match_for_winner_uuid": "2541096@14",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731173040.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@3",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Ласвилль, Руинберг, Прохоровка"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@3",
-                "round": 2,
-                "position": 2,
-                "next_match_for_winner_uuid": "2541096@1",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731186000.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@30",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Мурованка, Руинберг"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@30",
-                "round": 5,
-                "position": 15,
-                "next_match_for_winner_uuid": "2541096@15",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731173040.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@31",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Мурованка, Руинберг"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@31",
-                "round": 5,
-                "position": 16,
-                "next_match_for_winner_uuid": "2541096@15",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731173040.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@32",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15891438,
-            "team_2_id": null,
-            "team_1": {
-                "id": 15891438,
-                "tournament_id": 32236,
-                "title": "TEBE_V_ANGAR_NADO!!!",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "59387493",
-                "extra_data": {
-                    "contacts": "",
-                    "password": null,
-                    "description": "БЕРУ СРЕДНИХ И ВЫШЕ ИГРОКОВ  В СВОЮ КОМАНДУ ) ПО ВОПРОСАМ ПИШИТЕ В ЛС)",
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@32",
-                "round": 6,
-                "position": 1,
-                "next_match_for_winner_uuid": "2541096@16",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@33",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@33",
-                "round": 6,
-                "position": 2,
-                "next_match_for_winner_uuid": "2541096@16",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@34",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@34",
-                "round": 6,
-                "position": 3,
-                "next_match_for_winner_uuid": "2541096@17",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@35",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@35",
-                "round": 6,
-                "position": 4,
-                "next_match_for_winner_uuid": "2541096@17",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@36",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15867914,
-            "team_2_id": null,
-            "team_1": {
-                "id": 15867914,
-                "tournament_id": 32236,
-                "title": "W_YRoR__P",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "77753066",
-                "extra_data": {
-                    "contacts": "",
-                    "password": null,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@36",
-                "round": 6,
-                "position": 5,
-                "next_match_for_winner_uuid": "2541096@18",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@37",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@37",
-                "round": 6,
-                "position": 6,
-                "next_match_for_winner_uuid": "2541096@18",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@38",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15868986,
-            "team_2_id": null,
-            "team_1": {
-                "id": 15868986,
-                "tournament_id": 32236,
-                "title": "zzzz",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "13657201",
-                "extra_data": {
-                    "contacts": "",
-                    "password": null,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@38",
-                "round": 6,
-                "position": 7,
-                "next_match_for_winner_uuid": "2541096@19",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@39",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@39",
-                "round": 6,
-                "position": 8,
-                "next_match_for_winner_uuid": "2541096@19",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@4",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Химмельсдорф, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@4",
-                "round": 3,
-                "position": 1,
-                "next_match_for_winner_uuid": "2541096@2",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731181680.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@40",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15867770,
-            "team_2_id": null,
-            "team_1": {
-                "id": 15867770,
-                "tournament_id": 32236,
-                "title": "Гипси гёрлс",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "35245354",
-                "extra_data": {
-                    "contacts": "Loga_NoReplay",
-                    "password": true,
-                    "description": "",
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@40",
-                "round": 6,
-                "position": 9,
-                "next_match_for_winner_uuid": "2541096@20",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@41",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@41",
-                "round": 6,
-                "position": 10,
-                "next_match_for_winner_uuid": "2541096@20",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@42",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15870612,
-            "team_2_id": null,
-            "team_1": {
-                "id": 15870612,
-                "tournament_id": 32236,
-                "title": "Legendary Team",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "88795467",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@42",
-                "round": 6,
-                "position": 11,
-                "next_match_for_winner_uuid": "2541096@21",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@43",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@43",
-                "round": 6,
-                "position": 12,
-                "next_match_for_winner_uuid": "2541096@21",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@44",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15875581,
-            "team_2_id": null,
-            "team_1": {
-                "id": 15875581,
-                "tournament_id": 32236,
-                "title": "SURPRISE",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "12678937",
-                "extra_data": {
-                    "contacts": "egoistzxc",
-                    "password": true,
-                    "description": "",
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@44",
-                "round": 6,
-                "position": 13,
-                "next_match_for_winner_uuid": "2541096@22",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@45",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@45",
-                "round": 6,
-                "position": 14,
-                "next_match_for_winner_uuid": "2541096@22",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@46",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15867650,
-            "team_2_id": null,
-            "team_1": {
-                "id": 15867650,
-                "tournament_id": 32236,
-                "title": "HEAX",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "33488253",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@46",
-                "round": 6,
-                "position": 15,
-                "next_match_for_winner_uuid": "2541096@23",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@47",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@47",
-                "round": 6,
-                "position": 16,
-                "next_match_for_winner_uuid": "2541096@23",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@48",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15867915,
-            "team_2_id": null,
-            "team_1": {
-                "id": 15867915,
-                "tournament_id": 32236,
-                "title": "SPARTAK TEAM",
+                "id": 16537414,
+                "tournament_id": 35330,
+                "title": "[ALFA-] ALFA",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
@@ -3446,974 +180,14 @@ let tanks = {results:[
                 }
             },
             "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@48",
-                "round": 6,
-                "position": 17,
-                "next_match_for_winner_uuid": "2541096@24",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@49",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@49",
-                "round": 6,
-                "position": 18,
-                "next_match_for_winner_uuid": "2541096@24",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@5",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Химмельсдорф, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@5",
-                "round": 3,
-                "position": 2,
-                "next_match_for_winner_uuid": "2541096@2",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731181680.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@50",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15883701,
-            "team_2_id": null,
-            "team_1": {
-                "id": 15883701,
-                "tournament_id": 32236,
-                "title": "NEIN",
+                "id": 16550386,
+                "tournament_id": 35330,
+                "title": "[TRONS] 9-я Рота",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
                 },
-                "owner": "27460521",
-                "extra_data": {
-                    "contacts": "",
-                    "password": null,
-                    "description": "писать в лс нужен дискорд",
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@50",
-                "round": 6,
-                "position": 19,
-                "next_match_for_winner_uuid": "2541096@25",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@51",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@51",
-                "round": 6,
-                "position": 20,
-                "next_match_for_winner_uuid": "2541096@25",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@52",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15867596,
-            "team_2_id": null,
-            "team_1": {
-                "id": 15867596,
-                "tournament_id": 32236,
-                "title": "QW0TROBERY",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "152514719",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": "Мы не лаем, ни кусаемся на прохожих не бросаемся , хвостом не виляем!!!",
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@52",
-                "round": 6,
-                "position": 21,
-                "next_match_for_winner_uuid": "2541096@26",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@53",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@53",
-                "round": 6,
-                "position": 22,
-                "next_match_for_winner_uuid": "2541096@26",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@54",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15885490,
-            "team_2_id": null,
-            "team_1": {
-                "id": 15885490,
-                "tournament_id": 32236,
-                "title": "Solar Eclipse",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "15238802",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": "ищем киборга в стак",
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@54",
-                "round": 6,
-                "position": 23,
-                "next_match_for_winner_uuid": "2541096@27",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@55",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@55",
-                "round": 6,
-                "position": 24,
-                "next_match_for_winner_uuid": "2541096@27",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@56",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15867739,
-            "team_2_id": null,
-            "team_1": {
-                "id": 15867739,
-                "tournament_id": 32236,
-                "title": "Fallen Angels",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "128056812",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@56",
-                "round": 6,
-                "position": 25,
-                "next_match_for_winner_uuid": "2541096@28",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@57",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@57",
-                "round": 6,
-                "position": 26,
-                "next_match_for_winner_uuid": "2541096@28",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@58",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15889397,
-            "team_2_id": null,
-            "team_1": {
-                "id": 15889397,
-                "tournament_id": 32236,
-                "title": "Pink Elephants",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "207796049",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@58",
-                "round": 6,
-                "position": 27,
-                "next_match_for_winner_uuid": "2541096@29",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@59",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@59",
-                "round": 6,
-                "position": 28,
-                "next_match_for_winner_uuid": "2541096@29",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@6",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Химмельсдорф, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@6",
-                "round": 3,
-                "position": 3,
-                "next_match_for_winner_uuid": "2541096@3",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731181680.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@60",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15886049,
-            "team_2_id": null,
-            "team_1": {
-                "id": 15886049,
-                "tournament_id": 32236,
-                "title": "Munro",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "115666690",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@60",
-                "round": 6,
-                "position": 29,
-                "next_match_for_winner_uuid": "2541096@30",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@61",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@61",
-                "round": 6,
-                "position": 30,
-                "next_match_for_winner_uuid": "2541096@30",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168720.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@62",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15867766,
-            "team_2_id": null,
-            "team_1": {
-                "id": 15867766,
-                "tournament_id": 32236,
-                "title": "Imago",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "163179296",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@62",
-                "round": 6,
-                "position": 31,
-                "next_match_for_winner_uuid": "2541096@31",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168725.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@63",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Утёс, Песчаная река"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@63",
-                "round": 6,
-                "position": 32,
-                "next_match_for_winner_uuid": "2541096@31",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731168725.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@65",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15867623,
-            "team_2_id": 15892485,
-            "team_1": {
-                "id": 15867623,
-                "tournament_id": 32236,
-                "title": "Вперед за золотом!",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "8731143",
-                "extra_data": {
-                    "contacts": "",
-                    "password": null,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15892485,
-                "tournament_id": 32236,
-                "title": "Бочка мёда",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "2138039",
+                "owner": "18787798",
                 "extra_data": {
                     "contacts": "",
                     "password": true,
@@ -4424,16 +198,16 @@ let tanks = {results:[
             "state": "waiting_results",
             "winner_team_id": null,
             "settings": {
-                "map": "Рудники, Ласвилль"
+                "map": "Лайв Окс, Песчаная река"
             },
             "tournament_system_specific_data": {
-                "uuid": "2541096@65",
+                "uuid": "2550105@113",
                 "round": 7,
-                "position": 2,
-                "next_match_for_winner_uuid": "2541096@32",
+                "position": 50,
+                "next_match_for_winner_uuid": "2550105@56",
                 "next_match_for_looser_uuid": null
             },
-            "start_at": 1731164400.0,
+            "start_at": 1763816400.0,
             "extra_data": {
                 "wins_team_1": null,
                 "wins_team_2": null,
@@ -4441,57 +215,51 @@ let tanks = {results:[
             }
         },
         {
-            "uuid": "2541096@66",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15886862,
-            "team_2_id": 15869827,
+            "uuid": "2550105@12",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
             "team_1": {
-                "id": 15886862,
-                "tournament_id": 32236,
-                "title": "FAICE",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "206986433",
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
                 "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": "FAICE TM",
-                    "disqualify_reason": null
-                }
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
             },
             "team_2": {
-                "id": 15869827,
-                "tournament_id": 32236,
-                "title": "ЧВКА",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "207232563",
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
                 "extra_data": {
-                    "contacts": "",
-                    "password": null,
+                    "disqualify_reason": null,
+                    "password": false,
                     "description": null,
-                    "disqualify_reason": null
-                }
+                    "contacts": null
+                },
+                "title": null
             },
             "state": "waiting_results",
             "winner_team_id": null,
             "settings": {
-                "map": "Рудники, Ласвилль"
+                "map": "Энск, Песчаная река, Рыбацкая бухта"
             },
             "tournament_system_specific_data": {
-                "uuid": "2541096@66",
-                "round": 7,
-                "position": 3,
-                "next_match_for_winner_uuid": "2541096@33",
+                "uuid": "2550105@12",
+                "round": 4,
+                "position": 5,
+                "next_match_for_winner_uuid": "2550105@6",
                 "next_match_for_looser_uuid": null
             },
-            "start_at": 1731164400.0,
+            "start_at": 1763833260.0,
             "extra_data": {
                 "wins_team_1": null,
                 "wins_team_2": null,
@@ -4499,225 +267,1320 @@ let tanks = {results:[
             }
         },
         {
-            "uuid": "2541096@67",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15875365,
-            "team_2_id": 15877492,
+            "uuid": "2550105@13",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
             "team_1": {
-                "id": 15875365,
-                "tournament_id": 32236,
-                "title": "DeMsTie",
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Энск, Песчаная река, Рыбацкая бухта"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@13",
+                "round": 4,
+                "position": 6,
+                "next_match_for_winner_uuid": "2550105@6",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763833260.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@14",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Энск, Песчаная река, Рыбацкая бухта"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@14",
+                "round": 4,
+                "position": 7,
+                "next_match_for_winner_uuid": "2550105@7",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763833260.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@15",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Энск, Песчаная река, Рыбацкая бухта"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@15",
+                "round": 4,
+                "position": 8,
+                "next_match_for_winner_uuid": "2550105@7",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763833260.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@16",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Утёс, Химмельсдорф, Прохоровка"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@16",
+                "round": 5,
+                "position": 1,
+                "next_match_for_winner_uuid": "2550105@8",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763827080.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@17",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Утёс, Химмельсдорф, Прохоровка"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@17",
+                "round": 5,
+                "position": 2,
+                "next_match_for_winner_uuid": "2550105@8",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763827080.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@18",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Утёс, Химмельсдорф, Прохоровка"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@18",
+                "round": 5,
+                "position": 3,
+                "next_match_for_winner_uuid": "2550105@9",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763827080.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@19",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Утёс, Химмельсдорф, Прохоровка"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@19",
+                "round": 5,
+                "position": 4,
+                "next_match_for_winner_uuid": "2550105@9",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763827080.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@2",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Химмельсдорф"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@2",
+                "round": 2,
+                "position": 1,
+                "next_match_for_winner_uuid": "2550105@1",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@20",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Утёс, Химмельсдорф, Прохоровка"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@20",
+                "round": 5,
+                "position": 5,
+                "next_match_for_winner_uuid": "2550105@10",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763827080.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@21",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Утёс, Химмельсдорф, Прохоровка"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@21",
+                "round": 5,
+                "position": 6,
+                "next_match_for_winner_uuid": "2550105@10",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763827080.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@22",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Утёс, Химмельсдорф, Прохоровка"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@22",
+                "round": 5,
+                "position": 7,
+                "next_match_for_winner_uuid": "2550105@11",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763827080.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@23",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Утёс, Химмельсдорф, Прохоровка"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@23",
+                "round": 5,
+                "position": 8,
+                "next_match_for_winner_uuid": "2550105@11",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763827080.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@24",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Утёс, Химмельсдорф, Прохоровка"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@24",
+                "round": 5,
+                "position": 9,
+                "next_match_for_winner_uuid": "2550105@12",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763827080.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@25",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Утёс, Химмельсдорф, Прохоровка"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@25",
+                "round": 5,
+                "position": 10,
+                "next_match_for_winner_uuid": "2550105@12",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763827080.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@26",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Утёс, Химмельсдорф, Прохоровка"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@26",
+                "round": 5,
+                "position": 11,
+                "next_match_for_winner_uuid": "2550105@13",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763827080.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@27",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Утёс, Химмельсдорф, Прохоровка"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@27",
+                "round": 5,
+                "position": 12,
+                "next_match_for_winner_uuid": "2550105@13",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763827080.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@28",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Утёс, Химмельсдорф, Прохоровка"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@28",
+                "round": 5,
+                "position": 13,
+                "next_match_for_winner_uuid": "2550105@14",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763827080.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@29",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Утёс, Химмельсдорф, Прохоровка"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@29",
+                "round": 5,
+                "position": 14,
+                "next_match_for_winner_uuid": "2550105@14",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763827080.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@3",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Химмельсдорф"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@3",
+                "round": 2,
+                "position": 2,
+                "next_match_for_winner_uuid": "2550105@1",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@30",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Утёс, Химмельсдорф, Прохоровка"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@30",
+                "round": 5,
+                "position": 15,
+                "next_match_for_winner_uuid": "2550105@15",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763827080.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@31",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Утёс, Химмельсдорф, Прохоровка"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@31",
+                "round": 5,
+                "position": 16,
+                "next_match_for_winner_uuid": "2550105@15",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763827080.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@32",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16520746,
+            "team_2_id": null,
+            "team_1": {
+                "id": 16520746,
+                "tournament_id": 35330,
+                "title": "[NAUKA] THE LAST EXP",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
                 },
-                "owner": "72315646",
+                "owner": "1342477",
                 "extra_data": {
-                    "contacts": "DeK1R",
+                    "contacts": "Digoretc",
                     "password": true,
                     "description": "",
                     "disqualify_reason": null
                 }
             },
             "team_2": {
-                "id": 15877492,
-                "tournament_id": 32236,
-                "title": "COURAGE",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "89396927",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@67",
-                "round": 7,
-                "position": 4,
-                "next_match_for_winner_uuid": "2541096@33",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164400.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@68",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15873835,
-            "team_2_id": 15889969,
-            "team_1": {
-                "id": 15873835,
-                "tournament_id": 32236,
-                "title": "Special Forces",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "95998280",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15889969,
-                "tournament_id": 32236,
-                "title": "ВЕЙДЕЛЕВСКИЙ БОКС!!",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "171691194",
-                "extra_data": {
-                    "contacts": "",
-                    "password": null,
-                    "description": "+3",
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@68",
-                "round": 7,
-                "position": 5,
-                "next_match_for_winner_uuid": "2541096@34",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164400.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@69",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15867972,
-            "team_2_id": 15881246,
-            "team_1": {
-                "id": 15867972,
-                "tournament_id": 32236,
-                "title": "Свои",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "29002565",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": "Пароль тот же",
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15881246,
-                "tournament_id": 32236,
-                "title": "No Name",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "103776937",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@69",
-                "round": 7,
-                "position": 6,
-                "next_match_for_winner_uuid": "2541096@34",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164400.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@7",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": null,
-            "team_2_id": null,
-            "team_1": {
-                "owner": null,
-                "title": null,
+                "status": null,
+                "tournament_id": null,
                 "id": null,
+                "owner": null,
                 "extra_data": {
                     "disqualify_reason": null,
                     "password": false,
                     "description": null,
                     "contacts": null
                 },
-                "status": null,
-                "tournament_id": null
-            },
-            "team_2": {
-                "owner": null,
-                "title": null,
-                "id": null,
-                "extra_data": {
-                    "disqualify_reason": null,
-                    "password": false,
-                    "description": null,
-                    "contacts": null
-                },
-                "status": null,
-                "tournament_id": null
+                "title": null
             },
             "state": "waiting_results",
             "winner_team_id": null,
             "settings": {
-                "map": "Химмельсдорф, Песчаная река"
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
             },
             "tournament_system_specific_data": {
-                "uuid": "2541096@7",
-                "round": 3,
+                "uuid": "2550105@32",
+                "round": 6,
+                "position": 1,
+                "next_match_for_winner_uuid": "2550105@16",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820900.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@33",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16519007,
+            "team_2_id": 16548347,
+            "team_1": {
+                "id": 16519007,
+                "tournament_id": 35330,
+                "title": "[ICM] FISHING BAN",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "97801293",
+                "extra_data": {
+                    "contacts": "TOMIK",
+                    "password": true,
+                    "description": "",
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "id": 16548347,
+                "tournament_id": 35330,
+                "title": "[-V0R-] ПАКЕТ",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "255647130",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "",
+                    "disqualify_reason": null
+                }
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@33",
+                "round": 6,
+                "position": 2,
+                "next_match_for_winner_uuid": "2550105@16",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820900.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@34",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16537011,
+            "team_2_id": 16553374,
+            "team_1": {
+                "id": 16537011,
+                "tournament_id": 35330,
+                "title": "[KZS42]PARADOX STYLE",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "269469974",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "",
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "id": 16553374,
+                "tournament_id": 35330,
+                "title": "[MERCY] Galaktikos",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "208174535",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "",
+                    "disqualify_reason": null
+                }
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@34",
+                "round": 6,
+                "position": 3,
+                "next_match_for_winner_uuid": "2550105@17",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820900.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@35",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16516499,
+            "team_2_id": 16561414,
+            "team_1": {
+                "id": 16516499,
+                "tournament_id": 35330,
+                "title": "[FORZE] Тимур и ко",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "124315746",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "",
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "id": 16561414,
+                "tournament_id": 35330,
+                "title": "[HYBRD] ВКУСНЯТИНА",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "13921490",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": null,
+                    "disqualify_reason": null
+                }
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@35",
+                "round": 6,
                 "position": 4,
-                "next_match_for_winner_uuid": "2541096@3",
+                "next_match_for_winner_uuid": "2550105@17",
                 "next_match_for_looser_uuid": null
             },
-            "start_at": 1731181680.0,
+            "start_at": 1763820900.0,
             "extra_data": {
                 "wins_team_1": null,
                 "wins_team_2": null,
@@ -4725,148 +1588,32 @@ let tanks = {results:[
             }
         },
         {
-            "uuid": "2541096@70",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15889669,
-            "team_2_id": 15883665,
+            "uuid": "2550105@36",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16514916,
+            "team_2_id": 16514045,
             "team_1": {
-                "id": 15889669,
-                "tournament_id": 32236,
-                "title": "322Team",
+                "id": 16514916,
+                "tournament_id": 35330,
+                "title": "[7DV] КУБОВОЗЫ",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
                 },
-                "owner": "125864940",
+                "owner": "13720579",
                 "extra_data": {
-                    "contacts": "",
+                    "contacts": "amazoniy",
                     "password": true,
-                    "description": null,
+                    "description": "",
                     "disqualify_reason": null
                 }
             },
             "team_2": {
-                "id": 15883665,
-                "tournament_id": 32236,
-                "title": "main",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "47821867",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": "всем привет",
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@70",
-                "round": 7,
-                "position": 7,
-                "next_match_for_winner_uuid": "2541096@35",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164400.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@71",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15870856,
-            "team_2_id": 15880476,
-            "team_1": {
-                "id": 15870856,
-                "tournament_id": 32236,
-                "title": "Gotta go Кубок РЭД",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "75907245",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": "ищем соперников для тренировок,\nтг: @egorlesson",
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15880476,
-                "tournament_id": 32236,
-                "title": "татарстанские барсы",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "14364738",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@71",
-                "round": 7,
-                "position": 8,
-                "next_match_for_winner_uuid": "2541096@35",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164400.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@73",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15867703,
-            "team_2_id": 15886706,
-            "team_1": {
-                "id": 15867703,
-                "tournament_id": 32236,
-                "title": "командос",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "12553308",
-                "extra_data": {
-                    "contacts": "",
-                    "password": null,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15886706,
-                "tournament_id": 32236,
-                "title": "No Way Home",
+                "id": 16514045,
+                "tournament_id": 35330,
+                "title": "[N_W_H] No Way Home",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
@@ -4882,16 +1629,16 @@ let tanks = {results:[
             "state": "waiting_results",
             "winner_team_id": null,
             "settings": {
-                "map": "Рудники, Ласвилль"
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
             },
             "tournament_system_specific_data": {
-                "uuid": "2541096@73",
-                "round": 7,
-                "position": 10,
-                "next_match_for_winner_uuid": "2541096@36",
+                "uuid": "2550105@36",
+                "round": 6,
+                "position": 5,
+                "next_match_for_winner_uuid": "2550105@18",
                 "next_match_for_looser_uuid": null
             },
-            "start_at": 1731164400.0,
+            "start_at": 1763820900.0,
             "extra_data": {
                 "wins_team_1": null,
                 "wins_team_2": null,
@@ -4899,211 +1646,153 @@ let tanks = {results:[
             }
         },
         {
-            "uuid": "2541096@74",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15867621,
-            "team_2_id": 15885131,
+            "uuid": "2550105@37",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16514695,
+            "team_2_id": 16520016,
             "team_1": {
-                "id": 15867621,
-                "tournament_id": 32236,
-                "title": "AMAT",
+                "id": 16514695,
+                "tournament_id": 35330,
+                "title": "[QRAGE] BABAJKA",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
                 },
-                "owner": "109892625",
+                "owner": "211923797",
                 "extra_data": {
                     "contacts": "",
-                    "password": null,
+                    "password": true,
+                    "description": "Мы - сможем",
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "id": 16520016,
+                "tournament_id": 35330,
+                "title": "[LAP]FENIX",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "12117471",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "ТТТТТТ",
+                    "disqualify_reason": null
+                }
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@37",
+                "round": 6,
+                "position": 6,
+                "next_match_for_winner_uuid": "2550105@18",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820900.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@38",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16514620,
+            "team_2_id": 16558664,
+            "team_1": {
+                "id": 16514620,
+                "tournament_id": 35330,
+                "title": "[FORZE] ТыгыДык",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "4234988",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
                     "description": "",
                     "disqualify_reason": null
                 }
             },
             "team_2": {
-                "id": 15885131,
-                "tournament_id": 32236,
-                "title": "Vivienne",
+                "id": 16558664,
+                "tournament_id": 35330,
+                "title": "[-V0R-] Gagged",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
                 },
-                "owner": "23977041",
+                "owner": "213513",
                 "extra_data": {
                     "contacts": "",
+                    "password": true,
+                    "description": "с кляпом во рту сидим в танки играем)",
+                    "disqualify_reason": null
+                }
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@38",
+                "round": 6,
+                "position": 7,
+                "next_match_for_winner_uuid": "2550105@19",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820900.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@39",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16561336,
+            "team_2_id": 16521362,
+            "team_1": {
+                "id": 16561336,
+                "tournament_id": 35330,
+                "title": "[AND_T] Crazy Pugs",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "7632196",
+                "extra_data": {
+                    "contacts": "KAL1BR1",
                     "password": true,
                     "description": "",
                     "disqualify_reason": null
                 }
             },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@74",
-                "round": 7,
-                "position": 11,
-                "next_match_for_winner_uuid": "2541096@37",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164400.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@75",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15868885,
-            "team_2_id": 15874980,
-            "team_1": {
-                "id": 15868885,
-                "tournament_id": 32236,
-                "title": "tapsa ashar bekbasar",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "20810328",
-                "extra_data": {
-                    "contacts": "",
-                    "password": null,
-                    "description": "за освобождение от оккупантов палестины",
-                    "disqualify_reason": null
-                }
-            },
             "team_2": {
-                "id": 15874980,
-                "tournament_id": 32236,
-                "title": "Набор в команду!",
+                "id": 16521362,
+                "tournament_id": 35330,
+                "title": "[-PHX-] GGWP",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
                 },
-                "owner": "26946513",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@75",
-                "round": 7,
-                "position": 12,
-                "next_match_for_winner_uuid": "2541096@37",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164400.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@77",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15869981,
-            "team_2_id": 15884374,
-            "team_1": {
-                "id": 15869981,
-                "tournament_id": 32236,
-                "title": "Rise",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "8098356",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15884374,
-                "tournament_id": 32236,
-                "title": "In Ecstasy",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "126631930",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@77",
-                "round": 7,
-                "position": 14,
-                "next_match_for_winner_uuid": "2541096@38",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164400.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@78",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15883465,
-            "team_2_id": 15889657,
-            "team_1": {
-                "id": 15883465,
-                "tournament_id": 32236,
-                "title": "SAVAGE SEVEN",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "69046814",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15889657,
-                "tournament_id": 32236,
-                "title": "Caramel",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "155875428",
+                "owner": "12750487",
                 "extra_data": {
                     "contacts": "",
                     "password": true,
@@ -5114,16 +1803,16 @@ let tanks = {results:[
             "state": "waiting_results",
             "winner_team_id": null,
             "settings": {
-                "map": "Рудники, Ласвилль"
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
             },
             "tournament_system_specific_data": {
-                "uuid": "2541096@78",
-                "round": 7,
-                "position": 15,
-                "next_match_for_winner_uuid": "2541096@39",
+                "uuid": "2550105@39",
+                "round": 6,
+                "position": 8,
+                "next_match_for_winner_uuid": "2550105@19",
                 "next_match_for_looser_uuid": null
             },
-            "start_at": 1731164400.0,
+            "start_at": 1763820900.0,
             "extra_data": {
                 "wins_team_1": null,
                 "wins_team_2": null,
@@ -5131,109 +1820,51 @@ let tanks = {results:[
             }
         },
         {
-            "uuid": "2541096@79",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15868638,
-            "team_2_id": 15888165,
-            "team_1": {
-                "id": 15868638,
-                "tournament_id": 32236,
-                "title": "sappiamo",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "68612822",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": "",
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15888165,
-                "tournament_id": 32236,
-                "title": "А зори здесь тихие",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "14488283",
-                "extra_data": {
-                    "contacts": "",
-                    "password": null,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@79",
-                "round": 7,
-                "position": 16,
-                "next_match_for_winner_uuid": "2541096@39",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164400.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@8",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
+            "uuid": "2550105@4",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
             "team_1_id": null,
             "team_2_id": null,
             "team_1": {
-                "owner": null,
-                "title": null,
+                "status": null,
+                "tournament_id": null,
                 "id": null,
+                "owner": null,
                 "extra_data": {
                     "disqualify_reason": null,
                     "password": false,
                     "description": null,
                     "contacts": null
                 },
-                "status": null,
-                "tournament_id": null
+                "title": null
             },
             "team_2": {
-                "owner": null,
-                "title": null,
+                "status": null,
+                "tournament_id": null,
                 "id": null,
+                "owner": null,
                 "extra_data": {
                     "disqualify_reason": null,
                     "password": false,
                     "description": null,
                     "contacts": null
                 },
-                "status": null,
-                "tournament_id": null
+                "title": null
             },
             "state": "waiting_results",
             "winner_team_id": null,
             "settings": {
-                "map": "Затерянный город, Прохоровка"
+                "map": "Химмельсдорф, Утёс, Энск, Прохоровка"
             },
             "tournament_system_specific_data": {
-                "uuid": "2541096@8",
-                "round": 4,
+                "uuid": "2550105@4",
+                "round": 3,
                 "position": 1,
-                "next_match_for_winner_uuid": "2541096@4",
+                "next_match_for_winner_uuid": "2550105@2",
                 "next_match_for_looser_uuid": null
             },
-            "start_at": 1731177360.0,
+            "start_at": 1763839440.0,
             "extra_data": {
                 "wins_team_1": null,
                 "wins_team_2": null,
@@ -5241,32 +1872,358 @@ let tanks = {results:[
             }
         },
         {
-            "uuid": "2541096@81",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15868787,
-            "team_2_id": 15867678,
+            "uuid": "2550105@40",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16551710,
+            "team_2_id": null,
             "team_1": {
-                "id": 15868787,
-                "tournament_id": 32236,
-                "title": "Миру мир",
+                "id": 16551710,
+                "tournament_id": 35330,
+                "title": "[TRONS] VEXY TEAM",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
                 },
-                "owner": "108563486",
+                "owner": "64349085",
                 "extra_data": {
                     "contacts": "",
-                    "password": null,
+                    "password": true,
+                    "description": "",
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@40",
+                "round": 6,
+                "position": 9,
+                "next_match_for_winner_uuid": "2550105@20",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820900.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@41",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16546325,
+            "team_2_id": 16556129,
+            "team_1": {
+                "id": 16546325,
+                "tournament_id": 35330,
+                "title": "[TOPDV] INVINCIBLE",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "155086663",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
                     "description": null,
                     "disqualify_reason": null
                 }
             },
             "team_2": {
-                "id": 15867678,
-                "tournament_id": 32236,
-                "title": "REVENGE",
+                "id": 16556129,
+                "tournament_id": 35330,
+                "title": "[BRESK] MIROTVORTSY",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "268257547",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "Тг капитана - @TheApoStoI\nНик в игре - ApoStolLegenda",
+                    "disqualify_reason": null
+                }
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@41",
+                "round": 6,
+                "position": 10,
+                "next_match_for_winner_uuid": "2550105@20",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820900.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@42",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16548566,
+            "team_2_id": 16551480,
+            "team_1": {
+                "id": 16548566,
+                "tournament_id": 35330,
+                "title": "[-I-] All-in",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "373412",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": null,
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "id": 16551480,
+                "tournament_id": 35330,
+                "title": "[TRONS] NORD WIND",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "25770828",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "",
+                    "disqualify_reason": null
+                }
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@42",
+                "round": 6,
+                "position": 11,
+                "next_match_for_winner_uuid": "2550105@21",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820900.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@43",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16524043,
+            "team_2_id": 16552368,
+            "team_1": {
+                "id": 16524043,
+                "tournament_id": 35330,
+                "title": "[-V0R-] DetonatioN F",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "271204992",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "DetonatioN FOCUSME",
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "id": 16552368,
+                "tournament_id": 35330,
+                "title": "[SCOBY] DARK Klhg",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "19102798",
+                "extra_data": {
+                    "contacts": "",
+                    "description": "",
+                    "password": false,
+                    "disqualify_reason": null
+                }
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@43",
+                "round": 6,
+                "position": 12,
+                "next_match_for_winner_uuid": "2550105@21",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820900.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@44",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16516624,
+            "team_2_id": null,
+            "team_1": {
+                "id": 16516624,
+                "tournament_id": 35330,
+                "title": "[SCOBY] STORM",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "113032097",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": null,
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@44",
+                "round": 6,
+                "position": 13,
+                "next_match_for_winner_uuid": "2550105@22",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820900.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@45",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16556113,
+            "team_2_id": 16540723,
+            "team_1": {
+                "id": 16556113,
+                "tournament_id": 35330,
+                "title": "[TOPDV] Royalty",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "10682414",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": null,
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "id": 16540723,
+                "tournament_id": 35330,
+                "title": "[QRNGE] PHNTM",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "14873035",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "",
+                    "disqualify_reason": null
+                }
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@45",
+                "round": 6,
+                "position": 14,
+                "next_match_for_winner_uuid": "2550105@22",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820900.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@46",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16514240,
+            "team_2_id": 16547010,
+            "team_1": {
+                "id": 16514240,
+                "tournament_id": 35330,
+                "title": "[IVIP] LALIPUPA",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
@@ -5279,19 +2236,206 @@ let tanks = {results:[
                     "disqualify_reason": null
                 }
             },
+            "team_2": {
+                "id": 16547010,
+                "tournament_id": 35330,
+                "title": "[_RBC_] Ripes",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "211869359",
+                "extra_data": {
+                    "contacts": "Clown_Dracar1s",
+                    "password": true,
+                    "description": "",
+                    "disqualify_reason": null
+                }
+            },
             "state": "waiting_results",
             "winner_team_id": null,
             "settings": {
-                "map": "Рудники, Ласвилль"
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
             },
             "tournament_system_specific_data": {
-                "uuid": "2541096@81",
-                "round": 7,
+                "uuid": "2550105@46",
+                "round": 6,
+                "position": 15,
+                "next_match_for_winner_uuid": "2550105@23",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820900.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@47",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16558812,
+            "team_2_id": 16562615,
+            "team_1": {
+                "id": 16558812,
+                "tournament_id": 35330,
+                "title": "[B-RVN] BLACK RAVЕN",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "30899809",
+                "extra_data": {
+                    "contacts": "Cmapblu_M9lcnuk",
+                    "password": true,
+                    "description": "",
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "id": 16562615,
+                "tournament_id": 35330,
+                "title": "[7H-] Гусары",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "2623303",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": null,
+                    "disqualify_reason": null
+                }
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@47",
+                "round": 6,
+                "position": 16,
+                "next_match_for_winner_uuid": "2550105@23",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820900.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@48",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16556773,
+            "team_2_id": null,
+            "team_1": {
+                "id": 16556773,
+                "tournament_id": 35330,
+                "title": "[KZS42] Hog Riders",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "81991640",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "Geshtalt:\nhttps://t.me/geshtalttg\nGreenHustle:\nhttps://t.me/greenhustlell",
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@48",
+                "round": 6,
+                "position": 17,
+                "next_match_for_winner_uuid": "2550105@24",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820900.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@49",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16521441,
+            "team_2_id": 16514681,
+            "team_1": {
+                "id": 16521441,
+                "tournament_id": 35330,
+                "title": "[NAUKA] HellHeim",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "86136155",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": null,
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "id": 16514681,
+                "tournament_id": 35330,
+                "title": "[KZS42] DISTANCE",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "32162737",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "все плохо",
+                    "disqualify_reason": null
+                }
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@49",
+                "round": 6,
                 "position": 18,
-                "next_match_for_winner_uuid": "2541096@40",
+                "next_match_for_winner_uuid": "2550105@24",
                 "next_match_for_looser_uuid": null
             },
-            "start_at": 1731164400.0,
+            "start_at": 1763820900.0,
             "extra_data": {
                 "wins_team_1": null,
                 "wins_team_2": null,
@@ -5299,57 +2443,109 @@ let tanks = {results:[
             }
         },
         {
-            "uuid": "2541096@82",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15871070,
-            "team_2_id": 15884390,
+            "uuid": "2550105@5",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
             "team_1": {
-                "id": 15871070,
-                "tournament_id": 32236,
-                "title": "JUMBO TEAM",
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Химмельсдорф, Утёс, Энск, Прохоровка"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@5",
+                "round": 3,
+                "position": 2,
+                "next_match_for_winner_uuid": "2550105@2",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763839440.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@50",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16551582,
+            "team_2_id": 16539415,
+            "team_1": {
+                "id": 16551582,
+                "tournament_id": 35330,
+                "title": "[UNDAD] WWW team",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
                 },
-                "owner": "112461806",
+                "owner": "11567542",
                 "extra_data": {
                     "contacts": "",
                     "password": true,
-                    "description": "",
+                    "description": null,
                     "disqualify_reason": null
                 }
             },
             "team_2": {
-                "id": 15884390,
-                "tournament_id": 32236,
-                "title": "Reborn",
+                "id": 16539415,
+                "tournament_id": 35330,
+                "title": "[S__BY] Aviacia",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
                 },
-                "owner": "212367006",
+                "owner": "6767007",
                 "extra_data": {
                     "contacts": "",
                     "password": true,
-                    "description": "https://vk.com/koder322",
+                    "description": null,
                     "disqualify_reason": null
                 }
             },
             "state": "waiting_results",
             "winner_team_id": null,
             "settings": {
-                "map": "Рудники, Ласвилль"
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
             },
             "tournament_system_specific_data": {
-                "uuid": "2541096@82",
-                "round": 7,
+                "uuid": "2550105@50",
+                "round": 6,
                 "position": 19,
-                "next_match_for_winner_uuid": "2541096@41",
+                "next_match_for_winner_uuid": "2550105@25",
                 "next_match_for_looser_uuid": null
             },
-            "start_at": 1731164400.0,
+            "start_at": 1763820900.0,
             "extra_data": {
                 "wins_team_1": null,
                 "wins_team_2": null,
@@ -5357,57 +2553,57 @@ let tanks = {results:[
             }
         },
         {
-            "uuid": "2541096@83",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15870310,
-            "team_2_id": 15884925,
+            "uuid": "2550105@51",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16514025,
+            "team_2_id": 16517507,
             "team_1": {
-                "id": 15870310,
-                "tournament_id": 32236,
-                "title": "WINTER",
+                "id": 16514025,
+                "tournament_id": 35330,
+                "title": "[IN-TY] I-YAN TEAM",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
                 },
-                "owner": "153039213",
+                "owner": "122546625",
                 "extra_data": {
-                    "contacts": "",
+                    "contacts": "KPblCA_BOGOMOJIA",
                     "password": true,
-                    "description": "LANGUAGE",
+                    "description": "",
                     "disqualify_reason": null
                 }
             },
             "team_2": {
-                "id": 15884925,
-                "tournament_id": 32236,
-                "title": "Подкруточка поможет",
+                "id": 16517507,
+                "tournament_id": 35330,
+                "title": "[ARGST] Outbreak",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
                 },
-                "owner": "92283398",
+                "owner": "12487362",
                 "extra_data": {
                     "contacts": "",
                     "password": true,
-                    "description": null,
+                    "description": "Наша сила – в единстве и стремлении!",
                     "disqualify_reason": null
                 }
             },
             "state": "waiting_results",
             "winner_team_id": null,
             "settings": {
-                "map": "Рудники, Ласвилль"
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
             },
             "tournament_system_specific_data": {
-                "uuid": "2541096@83",
-                "round": 7,
+                "uuid": "2550105@51",
+                "round": 6,
                 "position": 20,
-                "next_match_for_winner_uuid": "2541096@41",
+                "next_match_for_winner_uuid": "2550105@25",
                 "next_match_for_looser_uuid": null
             },
-            "start_at": 1731164400.0,
+            "start_at": 1763820900.0,
             "extra_data": {
                 "wins_team_1": null,
                 "wins_team_2": null,
@@ -5415,57 +2611,115 @@ let tanks = {results:[
             }
         },
         {
-            "uuid": "2541096@85",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15884343,
-            "team_2_id": 15893256,
+            "uuid": "2550105@52",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16519416,
+            "team_2_id": 16547122,
             "team_1": {
-                "id": 15884343,
-                "tournament_id": 32236,
-                "title": "NOUNAMES",
+                "id": 16519416,
+                "tournament_id": 35330,
+                "title": "[VU-DU] CATS",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
                 },
-                "owner": "150582665",
+                "owner": "958468",
                 "extra_data": {
-                    "contacts": "",
+                    "contacts": "KoshaMur",
                     "password": true,
-                    "description": null,
+                    "description": "",
                     "disqualify_reason": null
                 }
             },
             "team_2": {
-                "id": 15893256,
-                "tournament_id": 32236,
-                "title": "Moonlight",
+                "id": 16547122,
+                "tournament_id": 35330,
+                "title": "[UNDAD] UNDEAD",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
                 },
-                "owner": "152242777",
+                "owner": "42171454",
                 "extra_data": {
                     "contacts": "",
                     "password": true,
-                    "description": null,
+                    "description": "",
                     "disqualify_reason": null
                 }
             },
             "state": "waiting_results",
             "winner_team_id": null,
             "settings": {
-                "map": "Рудники, Ласвилль"
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
             },
             "tournament_system_specific_data": {
-                "uuid": "2541096@85",
-                "round": 7,
+                "uuid": "2550105@52",
+                "round": 6,
+                "position": 21,
+                "next_match_for_winner_uuid": "2550105@26",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820900.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@53",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16560210,
+            "team_2_id": 16515606,
+            "team_1": {
+                "id": 16560210,
+                "tournament_id": 35330,
+                "title": "[TOPDV] BOABABS",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "214644653",
+                "extra_data": {
+                    "contacts": "TBO1_BA7YA",
+                    "password": true,
+                    "description": "",
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "id": 16515606,
+                "tournament_id": 35330,
+                "title": "[WEIDE] iNkoGniTo",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "256946528",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "...",
+                    "disqualify_reason": null
+                }
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@53",
+                "round": 6,
                 "position": 22,
-                "next_match_for_winner_uuid": "2541096@42",
+                "next_match_for_winner_uuid": "2550105@26",
                 "next_match_for_looser_uuid": null
             },
-            "start_at": 1731164400.0,
+            "start_at": 1763820900.0,
             "extra_data": {
                 "wins_team_1": null,
                 "wins_team_2": null,
@@ -5473,21 +2727,21 @@ let tanks = {results:[
             }
         },
         {
-            "uuid": "2541096@86",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15883439,
-            "team_2_id": 15881326,
+            "uuid": "2550105@54",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16523565,
+            "team_2_id": 16538654,
             "team_1": {
-                "id": 15883439,
-                "tournament_id": 32236,
-                "title": "MELES",
+                "id": 16523565,
+                "tournament_id": 35330,
+                "title": "[5PP] Ex10DED",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
                 },
-                "owner": "19754691",
+                "owner": "2782261",
                 "extra_data": {
                     "contacts": "",
                     "password": true,
@@ -5496,14 +2750,14 @@ let tanks = {results:[
                 }
             },
             "team_2": {
-                "id": 15881326,
-                "tournament_id": 32236,
-                "title": "51RUS",
+                "id": 16538654,
+                "tournament_id": 35330,
+                "title": "[KZS42] KUZBASS_BEAR",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
                 },
-                "owner": "431258",
+                "owner": "253247109",
                 "extra_data": {
                     "contacts": "",
                     "password": true,
@@ -5514,16 +2768,16 @@ let tanks = {results:[
             "state": "waiting_results",
             "winner_team_id": null,
             "settings": {
-                "map": "Рудники, Ласвилль"
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
             },
             "tournament_system_specific_data": {
-                "uuid": "2541096@86",
-                "round": 7,
+                "uuid": "2550105@54",
+                "round": 6,
                 "position": 23,
-                "next_match_for_winner_uuid": "2541096@43",
+                "next_match_for_winner_uuid": "2550105@27",
                 "next_match_for_looser_uuid": null
             },
-            "start_at": 1731164400.0,
+            "start_at": 1763820900.0,
             "extra_data": {
                 "wins_team_1": null,
                 "wins_team_2": null,
@@ -5531,21 +2785,21 @@ let tanks = {results:[
             }
         },
         {
-            "uuid": "2541096@87",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15867571,
-            "team_2_id": 15867578,
+            "uuid": "2550105@55",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16541215,
+            "team_2_id": 16515804,
             "team_1": {
-                "id": 15867571,
-                "tournament_id": 32236,
-                "title": "FAME",
+                "id": 16541215,
+                "tournament_id": 35330,
+                "title": "[IN-TY] Q KOTIKI",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
                 },
-                "owner": "19102798",
+                "owner": "152514719",
                 "extra_data": {
                     "contacts": "",
                     "password": true,
@@ -5554,9 +2808,164 @@ let tanks = {results:[
                 }
             },
             "team_2": {
-                "id": 15867578,
-                "tournament_id": 32236,
-                "title": "SCANDAL",
+                "id": 16515804,
+                "tournament_id": 35330,
+                "title": "[KEEP1] team Spider",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "18124184",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "",
+                    "disqualify_reason": null
+                }
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@55",
+                "round": 6,
+                "position": 24,
+                "next_match_for_winner_uuid": "2550105@27",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820900.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@56",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16516508,
+            "team_2_id": null,
+            "team_1": {
+                "id": 16516508,
+                "tournament_id": 35330,
+                "title": "[FORZE] Запаска",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "128098402",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "",
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@56",
+                "round": 6,
+                "position": 25,
+                "next_match_for_winner_uuid": "2550105@28",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820900.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@57",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16531998,
+            "team_2_id": 16514522,
+            "team_1": {
+                "id": 16531998,
+                "tournament_id": 35330,
+                "title": "[UNDAD] Outsiders",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "13891841",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": null,
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "id": 16514522,
+                "tournament_id": 35330,
+                "title": "[ROIEX] Time is mone",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "32834368",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "",
+                    "disqualify_reason": null
+                }
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@57",
+                "round": 6,
+                "position": 26,
+                "next_match_for_winner_uuid": "2550105@28",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820900.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@58",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16514224,
+            "team_2_id": 16534183,
+            "team_1": {
+                "id": 16514224,
+                "tournament_id": 35330,
+                "title": "[G_O_W] АК89VR",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
@@ -5565,81 +2974,39 @@ let tanks = {results:[
                 "extra_data": {
                     "contacts": "",
                     "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@87",
-                "round": 7,
-                "position": 24,
-                "next_match_for_winner_uuid": "2541096@43",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164400.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@89",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15889200,
-            "team_2_id": 15870600,
-            "team_1": {
-                "id": 15889200,
-                "tournament_id": 32236,
-                "title": "-ALPH",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "26789388",
-                "extra_data": {
-                    "contacts": "",
-                    "password": null,
-                    "description": "Команда клана -ALPH",
+                    "description": "",
                     "disqualify_reason": null
                 }
             },
             "team_2": {
-                "id": 15870600,
-                "tournament_id": 32236,
-                "title": "1VS15",
+                "id": 16534183,
+                "tournament_id": 35330,
+                "title": "[P-UL] NICE BOYS",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
                 },
-                "owner": "6192077",
+                "owner": "130022422",
                 "extra_data": {
                     "contacts": "",
                     "password": true,
-                    "description": null,
+                    "description": "",
                     "disqualify_reason": null
                 }
             },
             "state": "waiting_results",
             "winner_team_id": null,
             "settings": {
-                "map": "Рудники, Ласвилль"
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
             },
             "tournament_system_specific_data": {
-                "uuid": "2541096@89",
-                "round": 7,
-                "position": 26,
-                "next_match_for_winner_uuid": "2541096@44",
+                "uuid": "2550105@58",
+                "round": 6,
+                "position": 27,
+                "next_match_for_winner_uuid": "2550105@29",
                 "next_match_for_looser_uuid": null
             },
-            "start_at": 1731164400.0,
+            "start_at": 1763820900.0,
             "extra_data": {
                 "wins_team_1": null,
                 "wins_team_2": null,
@@ -5647,51 +3014,671 @@ let tanks = {results:[
             }
         },
         {
-            "uuid": "2541096@9",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
+            "uuid": "2550105@59",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16526632,
+            "team_2_id": 16540145,
+            "team_1": {
+                "id": 16526632,
+                "tournament_id": 35330,
+                "title": "[ABLI] EON",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "88961315",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "Everything or Nothing - Все или ничего",
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "id": 16540145,
+                "tournament_id": 35330,
+                "title": "[LORG-] Искренности",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "167180303",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "",
+                    "disqualify_reason": null
+                }
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@59",
+                "round": 6,
+                "position": 28,
+                "next_match_for_winner_uuid": "2550105@29",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820900.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@6",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
             "team_1_id": null,
             "team_2_id": null,
             "team_1": {
-                "owner": null,
-                "title": null,
+                "status": null,
+                "tournament_id": null,
                 "id": null,
+                "owner": null,
                 "extra_data": {
                     "disqualify_reason": null,
                     "password": false,
                     "description": null,
                     "contacts": null
                 },
-                "status": null,
-                "tournament_id": null
+                "title": null
             },
             "team_2": {
-                "owner": null,
-                "title": null,
+                "status": null,
+                "tournament_id": null,
                 "id": null,
+                "owner": null,
                 "extra_data": {
                     "disqualify_reason": null,
                     "password": false,
                     "description": null,
                     "contacts": null
                 },
-                "status": null,
-                "tournament_id": null
+                "title": null
             },
             "state": "waiting_results",
             "winner_team_id": null,
             "settings": {
-                "map": "Затерянный город, Прохоровка"
+                "map": "Химмельсдорф, Утёс, Энск, Прохоровка"
             },
             "tournament_system_specific_data": {
-                "uuid": "2541096@9",
+                "uuid": "2550105@6",
+                "round": 3,
+                "position": 3,
+                "next_match_for_winner_uuid": "2550105@3",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763839440.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@60",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16550186,
+            "team_2_id": 16546953,
+            "team_1": {
+                "id": 16550186,
+                "tournament_id": 35330,
+                "title": "[QRNGE] BOSS",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "4102767",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "",
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "id": 16546953,
+                "tournament_id": 35330,
+                "title": "[ALFA-] HEACURDO",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "33488253",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "",
+                    "disqualify_reason": null
+                }
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@60",
+                "round": 6,
+                "position": 29,
+                "next_match_for_winner_uuid": "2550105@30",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820900.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@61",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16551715,
+            "team_2_id": 16546624,
+            "team_1": {
+                "id": 16551715,
+                "tournament_id": 35330,
+                "title": "[ICM] LUCKY BOG F4",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "6168619",
+                "extra_data": {
+                    "contacts": "IvanS09",
+                    "password": true,
+                    "description": "",
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "id": 16546624,
+                "tournament_id": 35330,
+                "title": "[AP6AT] AP6AT",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "28422509",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": null,
+                    "disqualify_reason": null
+                }
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@61",
+                "round": 6,
+                "position": 30,
+                "next_match_for_winner_uuid": "2550105@30",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820900.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@62",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16514908,
+            "team_2_id": 16560971,
+            "team_1": {
+                "id": 16514908,
+                "tournament_id": 35330,
+                "title": "[SCOBY]Малыш и SCRAY",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "4551751",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "Я молодой полевой и пытаюсь развиваться в Медийку залетайте на стримы и подписывайтесь на тгк буду очень рад если за нами будут следить больше народу https://t.me/POLEVOY_DV_V_800ELO https://live.vkvideo.ru/polevoy_dv_v_800elo",
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "id": 16560971,
+                "tournament_id": 35330,
+                "title": "[7H-] Stak P0LevOI",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "2819530",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": null,
+                    "disqualify_reason": null
+                }
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@62",
+                "round": 6,
+                "position": 31,
+                "next_match_for_winner_uuid": "2550105@31",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820905.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@63",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16562742,
+            "team_2_id": 16564164,
+            "team_1": {
+                "id": 16562742,
+                "tournament_id": 35330,
+                "title": "[B-RVN] UCKPA Team",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "18478021",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "",
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "id": 16564164,
+                "tournament_id": 35330,
+                "title": "[IN-TY] MIG TEAM",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "149204222",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": null,
+                    "disqualify_reason": null
+                }
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Рыбацкая бухта, Мурованка, Хайвей"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@63",
+                "round": 6,
+                "position": 32,
+                "next_match_for_winner_uuid": "2550105@31",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763820905.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@65",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16514104,
+            "team_2_id": 16559322,
+            "team_1": {
+                "id": 16514104,
+                "tournament_id": 35330,
+                "title": "[TOPDV] u3u4u Team",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "265344303",
+                "extra_data": {
+                    "contacts": "MoPl940kZV",
+                    "password": true,
+                    "description": "",
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "id": 16559322,
+                "tournament_id": 35330,
+                "title": "[TRONS] YKT",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "4709567",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": null,
+                    "disqualify_reason": null
+                }
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Лайв Окс, Песчаная река"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@65",
+                "round": 7,
+                "position": 2,
+                "next_match_for_winner_uuid": "2550105@32",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763816400.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@7",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Химмельсдорф, Утёс, Энск, Прохоровка"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@7",
+                "round": 3,
+                "position": 4,
+                "next_match_for_winner_uuid": "2550105@3",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763839440.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@8",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Энск, Песчаная река, Рыбацкая бухта"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@8",
+                "round": 4,
+                "position": 1,
+                "next_match_for_winner_uuid": "2550105@4",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763833260.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@81",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16539016,
+            "team_2_id": 16545063,
+            "team_1": {
+                "id": 16539016,
+                "tournament_id": 35330,
+                "title": "[ABLI] Собрались",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "3451755",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": null,
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "id": 16545063,
+                "tournament_id": 35330,
+                "title": "[IN-TY] Cmon,lets go",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "75120402",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "",
+                    "disqualify_reason": null
+                }
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Лайв Окс, Песчаная река"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@81",
+                "round": 7,
+                "position": 18,
+                "next_match_for_winner_uuid": "2550105@40",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763816400.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@89",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16553447,
+            "team_2_id": 16561083,
+            "team_1": {
+                "id": 16553447,
+                "tournament_id": 35330,
+                "title": "[ABLI] UNLUCKY NT",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "122591030",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": "-_-",
+                    "disqualify_reason": null
+                }
+            },
+            "team_2": {
+                "id": 16561083,
+                "tournament_id": 35330,
+                "title": "[NAUKA] WakeyWakey",
+                "status": {
+                    "code": "confirmed",
+                    "title": "Подтверждена"
+                },
+                "owner": "26125878",
+                "extra_data": {
+                    "contacts": "",
+                    "password": true,
+                    "description": null,
+                    "disqualify_reason": null
+                }
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Лайв Окс, Песчаная река"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@89",
+                "round": 7,
+                "position": 26,
+                "next_match_for_winner_uuid": "2550105@44",
+                "next_match_for_looser_uuid": null
+            },
+            "start_at": 1763816400.0,
+            "extra_data": {
+                "wins_team_1": null,
+                "wins_team_2": null,
+                "draws": null
+            }
+        },
+        {
+            "uuid": "2550105@9",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": null,
+            "team_2_id": null,
+            "team_1": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "team_2": {
+                "status": null,
+                "tournament_id": null,
+                "id": null,
+                "owner": null,
+                "extra_data": {
+                    "disqualify_reason": null,
+                    "password": false,
+                    "description": null,
+                    "contacts": null
+                },
+                "title": null
+            },
+            "state": "waiting_results",
+            "winner_team_id": null,
+            "settings": {
+                "map": "Энск, Песчаная река, Рыбацкая бухта"
+            },
+            "tournament_system_specific_data": {
+                "uuid": "2550105@9",
                 "round": 4,
                 "position": 2,
-                "next_match_for_winner_uuid": "2541096@4",
+                "next_match_for_winner_uuid": "2550105@4",
                 "next_match_for_looser_uuid": null
             },
-            "start_at": 1731177360.0,
+            "start_at": 1763833260.0,
             "extra_data": {
                 "wins_team_1": null,
                 "wins_team_2": null,
@@ -5699,95 +3686,37 @@ let tanks = {results:[
             }
         },
         {
-            "uuid": "2541096@90",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15874388,
-            "team_2_id": 15891523,
+            "uuid": "2550105@97",
+            "tournament_id": 35330,
+            "stage_id": 83872,
+            "group_id": 2550105,
+            "team_1_id": 16516602,
+            "team_2_id": 16558037,
             "team_1": {
-                "id": 15874388,
-                "tournament_id": 32236,
-                "title": "Ermak",
+                "id": 16516602,
+                "tournament_id": 35330,
+                "title": "[-I-] Flamma",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
                 },
-                "owner": "100075906",
+                "owner": "4308819",
                 "extra_data": {
                     "contacts": "",
-                    "password": null,
-                    "description": null,
+                    "password": true,
+                    "description": "",
                     "disqualify_reason": null
                 }
             },
             "team_2": {
-                "id": 15891523,
-                "tournament_id": 32236,
-                "title": "Green Hustle",
+                "id": 16558037,
+                "tournament_id": 35330,
+                "title": "[BAFOX] BALLS SQUAD",
                 "status": {
                     "code": "confirmed",
                     "title": "Подтверждена"
                 },
-                "owner": "125777449",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@90",
-                "round": 7,
-                "position": 27,
-                "next_match_for_winner_uuid": "2541096@45",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164400.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@91",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15867700,
-            "team_2_id": 15889021,
-            "team_1": {
-                "id": 15867700,
-                "tournament_id": 32236,
-                "title": "Hoax",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "70007649",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15889021,
-                "tournament_id": 32236,
-                "title": "CSKA",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "151452328",
+                "owner": "151243199",
                 "extra_data": {
                     "contacts": "",
                     "password": true,
@@ -5798,368 +3727,21 @@ let tanks = {results:[
             "state": "waiting_results",
             "winner_team_id": null,
             "settings": {
-                "map": "Рудники, Ласвилль"
+                "map": "Лайв Окс, Песчаная река"
             },
             "tournament_system_specific_data": {
-                "uuid": "2541096@91",
-                "round": 7,
-                "position": 28,
-                "next_match_for_winner_uuid": "2541096@45",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164400.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@93",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15870956,
-            "team_2_id": 15883068,
-            "team_1": {
-                "id": 15870956,
-                "tournament_id": 32236,
-                "title": "Savage",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "8498146",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15883068,
-                "tournament_id": 32236,
-                "title": "Кофты",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "26121010",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": "Уф",
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@93",
-                "round": 7,
-                "position": 30,
-                "next_match_for_winner_uuid": "2541096@46",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164400.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@94",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15881375,
-            "team_2_id": 15867774,
-            "team_1": {
-                "id": 15881375,
-                "tournament_id": 32236,
-                "title": "DED_SEREGA_CCCP",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "1315358",
-                "extra_data": {
-                    "contacts": "",
-                    "password": null,
-                    "description": "на турнир «КУБОК РЭД ЭКСПО». 7х7+1 == RU 2 - 18:00, \n= 9 Ноября = приходить за 10 минут  до боя  только реальные  игроки  и  =отпишите  мне  что  будите  играть  !!!",
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15867774,
-                "tournament_id": 32236,
-                "title": "Plaki plaki",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "214202122",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@94",
-                "round": 7,
-                "position": 31,
-                "next_match_for_winner_uuid": "2541096@47",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164400.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@95",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15885236,
-            "team_2_id": 15880161,
-            "team_1": {
-                "id": 15885236,
-                "tournament_id": 32236,
-                "title": "FRUTA",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "34076483",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15880161,
-                "tournament_id": 32236,
-                "title": "KI7CC",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "2008361",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@95",
-                "round": 7,
-                "position": 32,
-                "next_match_for_winner_uuid": "2541096@47",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164400.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@97",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15868195,
-            "team_2_id": 15870664,
-            "team_1": {
-                "id": 15868195,
-                "tournament_id": 32236,
-                "title": "NOABS",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "131366624",
-                "extra_data": {
-                    "contacts": "chadow",
-                    "password": true,
-                    "description": "",
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15870664,
-                "tournament_id": 32236,
-                "title": "OnlyThanks",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "62660838",
-                "extra_data": {
-                    "contacts": "GwarD_Angel",
-                    "password": null,
-                    "description": "",
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@97",
+                "uuid": "2550105@97",
                 "round": 7,
                 "position": 34,
-                "next_match_for_winner_uuid": "2541096@48",
+                "next_match_for_winner_uuid": "2550105@48",
                 "next_match_for_looser_uuid": null
             },
-            "start_at": 1731164400.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@98",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15889678,
-            "team_2_id": 15884176,
-            "team_1": {
-                "id": 15889678,
-                "tournament_id": 32236,
-                "title": "GGWP",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "12750487",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15884176,
-                "tournament_id": 32236,
-                "title": "QWOTA GAMING",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "14707234",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": null,
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@98",
-                "round": 7,
-                "position": 35,
-                "next_match_for_winner_uuid": "2541096@49",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164400.0,
-            "extra_data": {
-                "wins_team_1": null,
-                "wins_team_2": null,
-                "draws": null
-            }
-        },
-        {
-            "uuid": "2541096@99",
-            "tournament_id": 32236,
-            "stage_id": 78314,
-            "group_id": 2541096,
-            "team_1_id": 15884033,
-            "team_2_id": 15868884,
-            "team_1": {
-                "id": 15884033,
-                "tournament_id": 32236,
-                "title": "Лесная_Братва",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "5968505",
-                "extra_data": {
-                    "contacts": "",
-                    "password": true,
-                    "description": "",
-                    "disqualify_reason": null
-                }
-            },
-            "team_2": {
-                "id": 15868884,
-                "tournament_id": 32236,
-                "title": "Галлюцинация",
-                "status": {
-                    "code": "confirmed",
-                    "title": "Подтверждена"
-                },
-                "owner": "125831248",
-                "extra_data": {
-                    "contacts": "lMory4ui",
-                    "password": true,
-                    "description": "",
-                    "disqualify_reason": null
-                }
-            },
-            "state": "waiting_results",
-            "winner_team_id": null,
-            "settings": {
-                "map": "Рудники, Ласвилль"
-            },
-            "tournament_system_specific_data": {
-                "uuid": "2541096@99",
-                "round": 7,
-                "position": 36,
-                "next_match_for_winner_uuid": "2541096@49",
-                "next_match_for_looser_uuid": null
-            },
-            "start_at": 1731164400.0,
+            "start_at": 1763816400.0,
             "extra_data": {
                 "wins_team_1": null,
                 "wins_team_2": null,
                 "draws": null
             }
         }
-    ],}
+    ],
+}
