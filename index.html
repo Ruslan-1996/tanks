@@ -1,45 +1,491 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Турнирная сетка — World of Tanks</title>
+    <meta name="description" content="Вазелиновое дрисло">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Russo+One&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #10130e;
+            --bg-raised: #1a1e16;
+            --ink: #f4efe4;
+            --muted: #a39e8c;
+            --brass: #e2c48a;
+            --brass-deep: #8a6a32;
+            --orange: #e2a04a;
+            --olive: #9aaf62;
+            --line: rgba(226, 196, 138, 0.55);
+        }
+
+        * { box-sizing: border-box; }
+
+        html, body, .root { height: 100%; }
+
+        body {
+            margin: 0;
+            color: var(--ink);
+            font-family: Manrope, "Segoe UI", sans-serif;
+            background:
+                radial-gradient(ellipse 70% 45% at 50% -10%, rgba(226, 196, 138, 0.14), transparent 55%),
+                radial-gradient(ellipse 32% 40% at 0% 100%, rgba(90, 102, 48, 0.22), transparent 50%),
+                radial-gradient(ellipse 28% 36% at 100% 90%, rgba(80, 58, 28, 0.28), transparent 46%),
+                var(--bg);
+        }
+
+        ::selection {
+            background: var(--brass);
+            color: #1a1408;
+        }
+
+        .root {
+            display: flex;
+            flex-direction: column;
+            border-top: 3px solid #e2a04a;
+            min-height: 0;
+        }
+
+        .hero {
+            flex: none;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 14px 22px 12px;
+            background:
+                linear-gradient(180deg, rgba(20, 23, 16, 0.96), rgba(16, 19, 14, 0.92));
+            border-bottom: 1px solid rgba(226, 196, 138, 0.28);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.28);
+        }
+
+        .emblem { display: block; flex: none; }
+
+        .hero-copy { min-width: 0; }
+
+        .kicker {
+            margin: 0;
+            color: var(--orange);
+            font-size: 11px;
+            font-weight: 800;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            margin: 1px 0 0;
+            font-family: "Russo One", Impact, sans-serif;
+            font-size: 30px;
+            font-weight: 400;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            line-height: 1.05;
+        }
+
+        .lede {
+            margin: 4px 0 0;
+            color: var(--muted);
+            font-size: 13px;
+        }
+
+        .route {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin: 8px 0 0;
+        }
+
+        .route span {
+            padding: 2px 7px;
+            border: 1px solid rgba(226, 196, 138, 0.35);
+            color: var(--brass);
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .route span:last-child {
+            background: var(--brass);
+            color: #1a1408;
+            border-color: var(--brass);
+        }
+
+        .hero-stats {
+            margin-left: auto;
+            display: flex;
+            gap: 10px;
+            flex: none;
+        }
+
+        .stat {
+            min-width: 88px;
+            padding: 8px 12px 7px;
+            background:
+                linear-gradient(#1c2118, #1c2118) padding-box,
+                linear-gradient(160deg, #f0ddb0, #6e5428) border-box;
+            border: 1px solid transparent;
+            clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px);
+        }
+
+        .stat b {
+            display: block;
+            font-family: "Russo One", Impact, sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            color: var(--brass);
+            line-height: 1;
+        }
+
+        .stat span {
+            display: block;
+            margin-top: 3px;
+            color: var(--muted);
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+        }
+
+        .board-scroll {
+            flex: 1;
+            min-width: 0;
+            min-height: 0;
+            overflow: auto;
+            background-image:
+                linear-gradient(rgba(226, 196, 138, 0.045) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(226, 196, 138, 0.045) 1px, transparent 1px);
+            background-size: 48px 48px;
+            background-attachment: local;
+            scrollbar-color: #6d5830 #14170f;
+        }
+
+        .board-scroll::-webkit-scrollbar { width: 10px; height: 10px; }
+        .board-scroll::-webkit-scrollbar-thumb {
+            background: linear-gradient(#c4a15a, #6d5830);
+        }
+        .board-scroll::-webkit-scrollbar-track,
+        .board-scroll::-webkit-scrollbar-corner { background: #14170f; }
+
+        .board {
+            width: max-content;
+            min-width: 100%;
+            padding: 0 18px 28px;
+        }
+
+        .heads,
+        .lanes {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        .heads {
+            position: sticky;
+            top: 0;
+            z-index: 5;
+            padding: 12px 0 8px;
+            background: #14170f;
+            border-bottom: 1px solid rgba(226, 196, 138, 0.28);
+        }
+
+        .head {
+            flex: none;
+            text-align: center;
+            color: var(--brass);
+            font-family: "Russo One", Impact, sans-serif;
+            font-size: 13px;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            line-height: 1.1;
+        }
+
+        .head:not(.head-gap)::before {
+            content: "";
+            display: block;
+            width: 6px;
+            height: 6px;
+            margin: 0 auto 6px;
+            background: var(--orange);
+            transform: rotate(45deg);
+        }
+
+        .head.playin::before { background: var(--olive); }
+
+        .head.final::before {
+            background: #f6e3b4;
+            box-shadow: 0 0 8px rgba(246, 227, 180, 0.85);
+        }
+
+        .head.final { color: #f6e3b4; }
+
+        .head small {
+            display: block;
+            min-height: 14px;
+            margin-top: 3px;
+            font-family: Manrope, sans-serif;
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            color: var(--muted);
+        }
+
+        .lanes { position: relative; }
+
+        .lanes::before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 560px;
+            height: 680px;
+            transform: translate(-50%, -50%);
+            background: radial-gradient(ellipse, rgba(226, 180, 90, 0.16), transparent 68%);
+            pointer-events: none;
+        }
+
+        .col,
+        .conn {
+            position: relative;
+            flex: none;
+            height: 100%;
+            z-index: 1;
+        }
+
+        .slot {
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: 86px;
+        }
+
+        .medal {
+            position: absolute;
+            left: 50%;
+            bottom: calc(100% + 8px);
+            transform: translateX(-50%);
+            filter: drop-shadow(0 6px 8px rgba(0, 0, 0, 0.45));
+            pointer-events: none;
+        }
+
+        .match {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            background:
+                linear-gradient(180deg, rgba(255, 236, 200, 0.14), transparent 26%),
+                linear-gradient(180deg, #31362b 0%, #1b2018 42%, #12150f 100%);
+            border: 1px solid rgba(226, 196, 138, 0.5);
+            clip-path: polygon(
+                9px 0, calc(100% - 9px) 0,
+                100% 9px, 100% calc(100% - 9px),
+                calc(100% - 9px) 100%, 9px 100%,
+                0 calc(100% - 9px), 0 9px
+            );
+            filter: drop-shadow(0 8px 8px rgba(0, 0, 0, 0.38));
+            transition: transform 0.15s ease;
+        }
+
+        .slot:hover { z-index: 3; }
+        .slot:hover .match { transform: translateY(-2px); }
+
+        .match.playin {
+            background:
+                linear-gradient(180deg, rgba(154, 175, 98, 0.2), transparent 34%),
+                linear-gradient(180deg, #2c3424, #141910 58%, #10140e);
+            border-color: rgba(154, 175, 98, 0.65);
+        }
+
+        .match.final {
+            background:
+                linear-gradient(180deg, rgba(246, 227, 180, 0.22), transparent 36%),
+                linear-gradient(180deg, #433c28, #1a170f 55%, #100e0a);
+            border-color: #f0d7a2;
+            filter: drop-shadow(0 10px 16px rgba(0, 0, 0, 0.45)) drop-shadow(0 0 18px rgba(226, 180, 90, 0.22));
+        }
+
+        .team {
+            flex: 0 0 33px;
+            display: grid;
+            grid-template-columns: 24px minmax(0, 1fr) 22px;
+            column-gap: 8px;
+            align-items: center;
+            padding: 0 10px;
+        }
+
+        .team + .team {
+            box-shadow: inset 0 1px 0 rgba(226, 196, 138, 0.2);
+        }
+
+        .team.is-winner {
+            background: linear-gradient(90deg, rgba(226, 196, 138, 0.18), transparent 72%);
+        }
+
+        .team.is-loser .name,
+        .team.is-loser .tag { opacity: 0.42; }
+
+        .badge {
+            width: 24px;
+            height: 24px;
+            display: grid;
+            place-items: center;
+            font-size: 9px;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            color: #1c1408;
+            background: linear-gradient(160deg, #f6e7c4, #c4923e 55%, #8a6230);
+            clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+        }
+
+        .team.is-empty .badge {
+            width: 10px;
+            height: 10px;
+            justify-self: center;
+            background: transparent;
+            border: 1.5px solid rgba(226, 196, 138, 0.75);
+            clip-path: none;
+            border-radius: 1px;
+            transform: rotate(45deg);
+            box-shadow: none;
+        }
+
+        .team.is-feeder .badge { border-color: #c5d48a; }
+        .team.is-feeder .name { color: #d5e2a8; }
+
+        .who {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-width: 0;
+            line-height: 1.15;
+        }
+
+        .tag {
+            color: var(--brass);
+            font-size: 10px;
+            font-weight: 800;
+            letter-spacing: 0.04em;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .name {
+            font-size: 13px;
+            font-weight: 700;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .team.is-empty .name {
+            color: #b7b1a0;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .score {
+            text-align: right;
+            font-size: 13px;
+            font-weight: 800;
+            font-variant-numeric: tabular-nums;
+            color: #f6e3b4;
+        }
+
+        .map {
+            flex: 0 0 18px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 0 10px 1px;
+            color: #b7b1a0;
+            font-size: 10px;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+        }
+
+        .map i {
+            width: 5px;
+            height: 5px;
+            flex: none;
+            background: var(--olive);
+            transform: rotate(45deg);
+        }
+
+        .match.final .map i { background: var(--brass); }
+        .match.playin .map i { background: var(--orange); }
+
+        .map span {
+            min-width: 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .wires { display: block; overflow: visible; }
+        .wire-shadow,
+        .wire { fill: none; stroke-linecap: butt; stroke-linejoin: miter; }
+        .wire-shadow { stroke: #3a2c14; stroke-width: 5; }
+        .wire { stroke: #e2c48a; stroke-width: 2; }
+
+        .empty-note {
+            padding: 28px;
+            color: var(--muted);
+        }
+
+        @media (max-width: 800px) {
+            .hero { flex-wrap: wrap; align-items: flex-start; }
+            .hero-stats { margin-left: 0; }
+            h1 { font-size: 24px; }
+        }
+    </style>
 </head>
 <body>
-<ol>
-     <li>Нажимаешь f12</li>
-     <li>кликаешь network (сеть)</li>
-     <li>ищешь в инпуте "matches"</li>
-     <li>кликаешь "payload" (полезная нагрузка)</li>
-     <li>меняеш id</li>
-    <div>tournamentId<input type="text" id="tournamentId">stageId<input type="text"  id="stageId">groupId<input type="text"  id="groupId"></div>
-    <button id="btn">Поиск</button>
-</ol>
-<div class="root"></div>
+<div class="root">
+    <header class="hero">
+        <svg class="emblem" viewBox="0 0 80 80" width="68" height="68" aria-hidden="true">
+            <defs>
+                <linearGradient id="emblemBrass" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#f8e7c0"/>
+                    <stop offset="0.45" stop-color="#e2c48a"/>
+                    <stop offset="1" stop-color="#8d6a32"/>
+                </linearGradient>
+            </defs>
+            <circle cx="40" cy="40" r="37" fill="#14170f" stroke="url(#emblemBrass)" stroke-width="2.5"/>
+            <circle cx="40" cy="40" r="31" fill="none" stroke="#6d5830" stroke-width="1"/>
+            <path fill="#e2c48a" d="M40 12.2l2.2 6.4h6.8l-5.5 4 2.1 6.5L40 25.2 34.4 29l2.1-6.5-5.5-4h6.8z"/>
+            <path fill="#d9c7a2" d="M15 47h9l3.4-7.2h21.2L53 44.2h13V52H15z"/>
+            <path fill="#f3e6c8" d="M32.5 39.2H48l2.2 5.6H30.4z"/>
+            <path fill="#f3e6c8" d="M47 40.4h17.5v2.7H47z"/>
+            <rect x="15" y="51" width="52" height="7.5" rx="3.6" fill="#14170f" stroke="#e2c48a" stroke-width="1.3"/>
+            <g fill="#e2c48a">
+                <circle cx="24" cy="54.7" r="1.7"/>
+                <circle cx="33" cy="54.7" r="1.7"/>
+                <circle cx="42" cy="54.7" r="1.7"/>
+                <circle cx="51" cy="54.7" r="1.7"/>
+                <circle cx="60" cy="54.7" r="1.7"/>
+            </g>
+        </svg>
+        <div class="hero-copy">
+            <p class="kicker">World of Tanks</p>
+            <h1>Турнирная сетка</h1>
+            <p class="lede">Нокаут. Победитель боя идёт по линии дальше, к кубку.</p>
+            <p class="route" id="route"></p>
+        </div>
+        <div class="hero-stats">
+            <div class="stat"><b id="stat-teams">—</b><span>команд</span></div>
+            <div class="stat"><b id="stat-matches">—</b><span>матчей</span></div>
+        </div>
+    </header>
+    <div class="board-scroll">
+        <div class="board" id="board"></div>
+    </div>
+</div>
 <script src="tanks.js"></script>
 <script src="index.js"></script>
 <script src="fetch.js"></script>
-<style>
-    .root {
-      width: max-content;
-    }
-
-    .item {
-        min-height: 100px;
-        min-width: 100px;
-      border: 1px solid black;
-      flex: 1 1 0px;
-
-    }
-
-    .row {
-      display: flex;
-      width: 100%;
-    }
-
-    .red {
-      border: 3px solid red;
-      box-sizing: border-box;
-    }
-</style>
 </body>
 </html>
